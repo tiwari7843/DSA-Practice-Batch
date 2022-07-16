@@ -1,0 +1,12 @@
+public static void numberTriangle2(int n){
+   int starLimit = 1;
+   int val = 1;
+   for(int i=0; i<n; i++){
+       val = 1;
+       for(int j=0; j<starLimit; j++){
+           System.out.print(val+" ");
+           val++;
+       }
+       starLimit++;
+       System.out.print();   
+}

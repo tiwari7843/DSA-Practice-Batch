@@ -1,0 +1,6 @@
+private static void printNumberReverse(int num){
+   while(num > 0){
+       System.out.println(num);
+       num--;
+   }
+}

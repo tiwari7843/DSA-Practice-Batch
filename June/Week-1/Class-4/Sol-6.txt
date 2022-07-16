@@ -1,0 +1,24 @@
+public static void patternDiamond(int n){
+   int stars = 1;
+   int spaces = n-1;
+   for(int i=0; i<n; i++){
+   //for spaces
+       for(int k=0; k<spaces; k++){
+           System.out.print(" ");
+       }
+   //for stars
+       for(int j=0; j<stars; j++){
+           System.out.print("*");
+       }
+       //first half
+       if(i < n/2){
+          stars+=2;
+          spaces++;
+       }
+       else{
+          stars-=2;
+          spaces++;
+       }
+       System.out.print();   
+   }
+}

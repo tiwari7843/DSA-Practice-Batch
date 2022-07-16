@@ -1,0 +1,11 @@
+private static void maxMin(int[] arr){
+   int max = arr[0];
+   int min = arr[0];
+
+   for(int i=1; i<arr.length; i++){
+     max = Math.max(arr[i], max);
+     min = Math.min(arr[i], min);
+     }
+   System.out.println("Max "+max);
+   System.out.println("Min "+min);
+}

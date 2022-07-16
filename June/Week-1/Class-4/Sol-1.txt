@@ -1,0 +1,9 @@
+public static void starTriangle(int n){
+   int starLimit = 1;
+   for(int i=0; i<n; i++){
+       for(int j=0; j<starLimit; j++){
+           System.out.print("* ");
+       }
+       starLimit++;
+       System.out.print();   
+}

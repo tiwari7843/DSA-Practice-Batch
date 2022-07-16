@@ -1,0 +1,15 @@
+private static void isPrimeBtr(int val){
+   int count = 0;
+   boolean flag = true;
+   for(int i=2; i<=val/2; i++){
+      if(val % i == 0){
+         flag = false;
+      }
+   }
+   if(flag){ 
+      System.out.println("Prime");
+   }
+   else{
+      System.out.println("Non Prime");
+   }
+}

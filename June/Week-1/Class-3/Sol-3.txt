@@ -1,0 +1,8 @@
+private static void firstLastDigit(int i){
+   int last = 0;
+   while(n > 9){
+       i/=10;
+   }
+   System.out.println(i); 
+   System.out.println(last);
+}

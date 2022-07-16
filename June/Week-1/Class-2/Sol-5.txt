@@ -1,0 +1,12 @@
+public static void evenOdd(){
+   int min1 = Integer.MIN_VALUE; 
+   int max = Integer.MAX_VALUE;
+   
+   for(int val:arr){
+      min = Math.min(min,val);
+      max = math.max(max,val);
+      }
+      
+       System.out.println("Max "+ max);
+       System.out.println("Min "+ min);
+      }

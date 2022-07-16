@@ -1,0 +1,20 @@
+class Solution{
+   int[] arr;
+   public Solution(int[] nums){
+      arr = nums;
+   }
+   public int[] reset(){
+      return arr;
+   }
+   public int[] shuffle(){
+      int[] sflarr = arr.clone();
+      Random rn = new Random();
+      for(int i=sflarr.length-1; i>0; i--){
+          int rindx = rn.nextInt(i+1);
+          int temp = sflarr[i];
+          sflarr[i] = sflarr[rindx];
+          sflar[rindx] = temp;
+      }
+      return sflarr;
+   }
+}

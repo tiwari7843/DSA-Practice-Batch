@@ -1,0 +1,15 @@
+private static void armstrongNumber(int i){
+   int num1 = 0;
+   int num2 = i;
+   while(i >0){
+      int rem = i%10;
+      i/=10;
+      num1+= Math.pow(rem,count);
+   }
+   if(num1 == num2) 
+      System.out.println(true);
+   }
+   else{
+      System.out.println(false);
+   }
+}

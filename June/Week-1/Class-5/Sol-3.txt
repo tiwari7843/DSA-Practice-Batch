@@ -1,0 +1,12 @@
+private static void buySell(int[] arr){
+   int currMIn = ar[0];
+   int maxSum = 0;
+   for(int i=1; i<arr.lengh; i++){
+       if(arr[i] > currMin){
+          int profit = arr[i] - currMIn;
+          maxSum = Math.max(maxSum, profit);
+       }
+       currMin = Math.min(currMin, arr[i]);
+   }
+   System.out.println(maxSum);
+}

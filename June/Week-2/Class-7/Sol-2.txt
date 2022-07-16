@@ -1,0 +1,17 @@
+private static void majorityElement(int[] arr){
+   int count = 1;
+   int majorityIndex = 0;
+   for(int i=1; i<arr.length; i++){
+     if(arr[i]<arr[majorityIndex]){
+        count++; 
+     }
+     else{
+        count--;
+     }
+     if(count == 0){
+        count = 1;
+        majorityIndex = i;
+     }
+   }
+   System.out.println(list);
+}

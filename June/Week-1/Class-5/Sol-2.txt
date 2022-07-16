@@ -1,0 +1,15 @@
+private static void twoPointer(int[] arr, int target){
+   int l = 0, r = arr.length-1;
+   while(l < r){
+      int currSum = arr[l]+arr[r];
+      if(currSum < target){
+         l++;
+      }
+      else if(currSum > target) {
+         r--;
+      }
+      else{
+         System.out.println(arr[l]+" "+arr[r]);
+      }   
+   }
+}

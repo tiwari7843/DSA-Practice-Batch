@@ -1,0 +1,21 @@
+private static void largestSubArrayBtr(int[] arr){
+   int maxSum = Integer.MIN_VALUE;
+   int currum = 0;
+   int startIndex = 0;
+   int endIndex 0 ;
+   for(int i=1; i<arr.length; i++){
+       currSum+= arr[i];
+       if(maxsum < currSum)  
+       maxsum = currSum;
+       endIIndex = i;
+   }
+       if(curSum < 0){
+          curSum = 0 ; 
+          startIndex = i;    
+       }
+   }
+   System.out.println(maxSum);
+   System.out.println("start index");
+   System.out.println("End Index +endIndex); 
+
+}

@@ -1,0 +1,12 @@
+private static void isPrimeBtr(int val){
+   int val1 = 0;
+   int val2 = 1;
+   System.out.println(val1);
+   System.out.println(val2);
+   for(int i=3; i<=n; i++){
+      int val3 = val1+val2;
+      System.out.println(val3);
+      val1 = val2;
+      val2 = val3;
+   } 
+}
